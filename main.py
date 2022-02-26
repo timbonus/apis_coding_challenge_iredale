@@ -9,7 +9,11 @@ from car_counter.max_counts import MaxCounts
 
 
 description = """
-Process car counter data file and print the following results results
+Process car counter data file and return the following results as text:
+ - Total car count - cumulative total across entire file.
+ - Daily counts - cumulative total of counts in the file grouped by date.
+ - Lowest count period - observations from the lowest consecutive three half-hour observations in the file.
+ - Largest observations - the top three observations in the file.
 
 Usage:
     python3 main.py [<options>]

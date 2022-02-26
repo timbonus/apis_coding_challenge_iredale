@@ -5,7 +5,7 @@ class QuietestPeriod(object):
     """
     def __init__(self, size=3):
         """
-        :param size: integer number of half hour periods defining length of lowest count period to track.
+        :param size: int, number of half hour periods defining length of lowest count period to track.
         """
         self._size = size
         self._current_period = []

@@ -21,8 +21,7 @@ class MaxCounts( object ):
         if len(self) < self._size:
             heapq.heappush(self._counts, heap_formatted_record)
         elif self._counts[0][0] < new_count:
-            heapq.heappop(self._counts)
-            heapq.heappush(self._counts, heap_formatted_record)
+            heapq.heappushpop(self._counts, heap_formatted_record)
 
     def serialise(self):
         """
