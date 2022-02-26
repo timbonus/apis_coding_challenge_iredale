@@ -20,7 +20,7 @@ Usage:
 
 Optional arguments to specify source data and output file:
     --path-in <path_to_file>   process the file <path_to_file>. If not specified stdin is used.
-    --path-out <path_to_file>  output the results to <file path_to_file>. If not specified stdout is used.
+    --path-out <path_to_file>  output the results to file <path_to_file>. If not specified stdout is used.
 """
 
 if __name__ == '__main__':
